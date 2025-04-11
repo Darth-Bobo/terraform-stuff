@@ -590,7 +590,7 @@ resource "cloudflare_tunnel" "base_tunnel" {
   account_id   = var.account_id
   name         = var.tunnel_name
   config_src   = "cloudflare"
-  secret       = "85f0af81d9e442e39de7aabac00935bc"
+  secret       = "*"
 }
 
 #
